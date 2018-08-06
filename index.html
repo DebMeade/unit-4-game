@@ -1,0 +1,75 @@
+<!DOCtype html>
+<html>
+
+<head>
+    <title>Crystal Game</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- <div class="wrapper"></div> -->
+    <div id="crystal">
+        <h1>Crystals Collector!</h1>
+
+        <h2>Do you think you'll be able to hit the target number?</h2>
+
+
+        <div class="box1">
+            <p>You will be given a random number at the start of the game.</p>
+            <p>By clicking on one of the crystals below you will add a specific amount of points to your total score.</p>
+            <p>You win the game by making your total score equal to the target number and you lose the game if your total score goes
+                above the target number.</p>
+            <p>The value of each crystal is hidden until you click on it.</p>
+            <p>Each time the game starts, the values associated to the crystals will change.</p>
+        </div>
+
+        <div id="containbox23">
+            <div class="box2target">
+                <p>Target Number:</br>
+                    <span id="targetNumber"></span>
+                </p>
+            </div>
+            <div class="box3wl">
+                <p>Wins:
+                    <span id="wins"></span>
+                </p>
+                <p>Losses:
+                    <span id="losses"></span>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="imgwidth">
+    <div id="containimg">
+    <div class="row">
+        <img src="assets/images/topaz svg.png" alt=Topaz id="blue" class="crystals" style="width:75px">
+        <img src="assets/images/emerald svg.png" alt=Emerald id="green" class="crystals" style="width:75px">
+        <img src="assets/images/Amethyst svg.png" alt=Amethyst id="purple" class="crystals" style="width:75px">
+        <img src="assets/images/ruby svg.png" alt=Ruby id="red" class="crystals" style="width:75px">
+    </div>
+    </div>    
+    </div>
+
+    <div id="containbox45">
+    <div class="box4">
+        <p>Your total score is:</p>
+    </div>
+    </div>
+
+    <div id="containbox45">
+    <div id="counter">
+        <P></P>
+    </div>
+    </div>
+    </div>
+
+    </div>
+    </div>
+</body>
+
+</html>
